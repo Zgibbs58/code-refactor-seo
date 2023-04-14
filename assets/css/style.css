@@ -26,7 +26,6 @@ body {
 
 .header nav {
     padding-top: 15px;
-    margin-right: 20px;
     float: right;
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     font-size: 20px;
@@ -34,21 +33,21 @@ body {
 
 .header nav ul {
     list-style-type: none;
-}
-
-.header nav ul li {
-    display: inline-block;
-    margin-left: 25px;
+    display: grid;
+    grid-template-columns: repeat(3, minmax(260px, 1fr));
+    gap: 1rem;
+    text-align: center;
 }
 
 a {
     color: #ffffff;
     text-decoration: none;
-    transition: .5s;
+    transition: .8s;
 }
 
 a:hover {
     color: #d9dcd6;
+    font-size: 97%;
     transition: .5s;
 }
 
