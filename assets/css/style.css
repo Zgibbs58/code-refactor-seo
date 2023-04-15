@@ -34,7 +34,7 @@ body {
 .header nav ul {
     list-style-type: none;
     display: grid;
-    grid-template-columns: repeat(3, minmax(260px, 1fr));
+    grid-template-columns: repeat(3, minmax(270px, 1fr));
     gap: 1rem;
     text-align: center;
 }
@@ -42,13 +42,13 @@ body {
 a {
     color: #ffffff;
     text-decoration: none;
-    transition: .8s;
+    transition: .4s;
 }
 
 a:hover {
     color: #d9dcd6;
     font-size: 97%;
-    transition: .5s;
+    transition: .4s;
 }
 
 .hero {
