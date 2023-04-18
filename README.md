@@ -10,4 +10,4 @@ This is a website created for students to evaluate the code and refactor it to m
 
  ![screen capture of Horiseon website](assets/images/refactor-screencapture.png)
 
- ![website url](https://zgibbs58.github.io/code-refactor-seo/)
+ [deployed application link](https://zgibbs58.github.io/code-refactor-seo/)
